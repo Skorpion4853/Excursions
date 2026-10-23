@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano>
+
+
+  <data name="en_project_title"><![CDATA[New Project]]></data>
+
+
+
+  <data name="en_pano43_title"><![CDATA[photo_6_2026-10-15_10-00-02]]></data>
+  <data name="en_spotpoint102_tooltip"><![CDATA[photo_25_2026-10-15_10-00-02]]></data>
+
+
+  <data name="en_pano45_title"><![CDATA[photo_10_2026-10-15_10-00-02]]></data>
+  <data name="en_spotpoint119_tooltip"><![CDATA[photo_16_2026-10-15_10-00-02]]></data>
+  <data name="en_spotpoint130_tooltip"><![CDATA[photo_11_2026-10-15_10-00-02]]></data>
+  <data name="en_spotpoint131_tooltip"><![CDATA[photo_9_2026-10-15_10-00-02]]></data>
+  <data name="en_spotpoint133_tooltip"><![CDATA[photo_17_2026-10-15_10-00-02]]></data>
+  <data name="en_spotpoint134_tooltip"><![CDATA[photo_15_2026-10-15_10-00-02]]></data>
+
+
+  <data name="en_pano46_title"><![CDATA[photo_11_2026-10-15_10-00-02]]></data>
+  <data name="en_spotpoint125_tooltip"><![CDATA[photo_2_2026-10-15_10-00-02]]></data>
+  <data name="en_spotpoint129_tooltip"><![CDATA[photo_10_2026-10-15_10-00-02]]></data>
+  <data name="en_spotpoint136_tooltip"><![CDATA[photo_3_2026-10-15_10-00-02]]></data>
+  <data name="en_spotpoint137_tooltip"><![CDATA[photo_7_2026-10-15_10-00-02]]></data>
+
+  <data name="en_panogroup71_title"><![CDATA[Group 71]]></data>
+
+  <data name="en_pano47_title"><![CDATA[photo_12_2026-10-15_10-00-02]]></data>
+  <data name="en_spotpoint98_tooltip"><![CDATA[photo_13_2026-10-15_10-00-02]]></data>
+  <data name="en_spotpoint100_tooltip"><![CDATA[photo_25_2026-10-15_10-00-02]]></data>
+  <data name="en_pano48_title"><![CDATA[photo_13_2026-10-15_10-00-02]]></data>
+  <data name="en_spotpoint99_tooltip"><![CDATA[photo_12_2026-10-15_10-00-02]]></data>
+
+
+  <data name="en_pano49_title"><![CDATA[photo_15_2026-10-15_10-00-02]]></data>
+  <data name="en_spotpoint135_tooltip"><![CDATA[photo_10_2026-10-15_10-00-02]]></data>
+
+
+  <data name="en_pano50_title"><![CDATA[photo_16_2026-10-15_10-00-02]]></data>
+  <data name="en_spotpoint120_tooltip"><![CDATA[photo_10_2026-10-15_10-00-02]]></data>
+
+
+  <data name="en_pano51_title"><![CDATA[photo_17_2026-10-15_10-00-02]]></data>
+  <data name="en_spotpoint132_tooltip"><![CDATA[photo_10_2026-10-15_10-00-02]]></data>
+
+  <data name="en_panogroup76_title"><![CDATA[Group 76]]></data>
+
+  <data name="en_pano52_title"><![CDATA[photo_18_2026-10-15_10-00-02]]></data>
+  <data name="en_spotpoint105_tooltip"><![CDATA[photo_19_2026-10-15_10-00-02]]></data>
+  <data name="en_spotpoint106_tooltip"><![CDATA[photo_22_2026-10-15_10-00-02]]></data>
+  <data name="en_spotpoint108_tooltip"><![CDATA[photo_20_2026-10-15_10-00-02]]></data>
+  <data name="en_pano56_title"><![CDATA[photo_22_2026-10-15_10-00-02]]></data>
+  <data name="en_spotpoint107_tooltip"><![CDATA[photo_18_2026-10-15_10-00-02]]></data>
+
+  <data name="en_panogroup77_title"><![CDATA[Group 77]]></data>
+
+  <data name="en_pano53_title"><![CDATA[photo_19_2026-10-15_10-00-02]]></data>
+  <data name="en_spotpoint97_tooltip"><![CDATA[photo_27_2026-10-15_10-00-03]]></data>
+  <data name="en_spotpoint104_tooltip"><![CDATA[photo_18_2026-10-15_10-00-02]]></data>
+  <data name="en_pano61_title"><![CDATA[photo_27_2026-10-15_10-00-03]]></data>
+  <data name="en_spotpoint96_tooltip"><![CDATA[photo_19_2026-10-15_10-00-02]]></data>
+
+
+  <data name="en_pano55_title"><![CDATA[photo_20_2026-10-15_10-00-02]]></data>
+  <data name="en_spotpoint109_tooltip"><![CDATA[photo_18_2026-10-15_10-00-02]]></data>
+  <data name="en_spotpoint110_tooltip"><![CDATA[photo_9_2026-10-15_10-00-02]]></data>
+
+
+  <data name="en_pano59_title"><![CDATA[photo_25_2026-10-15_10-00-02]]></data>
+  <data name="en_spotpoint95_tooltip"><![CDATA[photo_12_2026-10-15_10-00-02]]></data>
+  <data name="en_spotpoint101_tooltip"><![CDATA[photo_6_2026-10-15_10-00-02]]></data>
+  <data name="en_spotpoint103_tooltip"><![CDATA[photo_20_2026-10-15_10-00-02]]></data>
+
+  <data name="en_panogroup84_title"><![CDATA[Group 84]]></data>
+
+  <data name="en_pano60_title"><![CDATA[photo_26_2026-10-15_10-00-03]]></data>
+  <data name="en_spotpoint113_tooltip"><![CDATA[photo_23_2026-10-15_10-00-02]]></data>
+  <data name="en_spotpoint115_tooltip"><![CDATA[photo_24_2026-10-15_10-00-02]]></data>
+  <data name="en_pano57_title"><![CDATA[photo_23_2026-10-15_10-00-02]]></data>
+  <data name="en_spotpoint114_tooltip"><![CDATA[photo_26_2026-10-15_10-00-03]]></data>
+  <data name="en_pano58_title"><![CDATA[photo_24_2026-10-15_10-00-02]]></data>
+  <data name="en_spotpoint116_tooltip"><![CDATA[photo_26_2026-10-15_10-00-03]]></data>
+  <data name="en_spotpoint117_tooltip"><![CDATA[photo_9_2026-10-15_10-00-02]]></data>
+
+  <data name="en_panogroup86_title"><![CDATA[Group 86]]></data>
+
+  <data name="en_pano62_title"><![CDATA[photo_2_2026-10-15_10-00-02]]></data>
+  <data name="en_spotpoint93_tooltip"><![CDATA[photo_1_2026-10-15_10-00-02]]></data>
+  <data name="en_spotpoint121_tooltip"><![CDATA[photo_8_2026-10-15_10-00-02]]></data>
+  <data name="en_spotpoint126_tooltip"><![CDATA[photo_4_2026-10-15_10-00-02]]></data>
+  <data name="en_spotpoint128_tooltip"><![CDATA[photo_11_2026-10-15_10-00-02]]></data>
+  <data name="en_pano54_title"><![CDATA[photo_1_2026-10-15_10-00-02]]></data>
+  <data name="en_spotpoint94_tooltip"><![CDATA[photo_2_2026-10-15_10-00-02]]></data>
+
+
+  <data name="en_pano63_title"><![CDATA[photo_3_2026-10-15_10-00-02]]></data>
+  <data name="en_spotpoint139_tooltip"><![CDATA[photo_11_2026-10-15_10-00-02]]></data>
+
+
+  <data name="en_pano64_title"><![CDATA[photo_4_2026-10-15_10-00-02]]></data>
+  <data name="en_spotpoint127_tooltip"><![CDATA[photo_2_2026-10-15_10-00-02]]></data>
+
+
+  <data name="en_pano66_title"><![CDATA[photo_7_2026-10-15_10-00-02]]></data>
+  <data name="en_spotpoint138_tooltip"><![CDATA[photo_11_2026-10-15_10-00-02]]></data>
+
+  <data name="en_panogroup91_title"><![CDATA[Group 91]]></data>
+
+  <data name="en_pano67_title"><![CDATA[photo_8_2026-10-15_10-00-02]]></data>
+  <data name="en_spotpoint122_tooltip"><![CDATA[photo_5_2026-10-15_10-00-02]]></data>
+  <data name="en_spotpoint123_tooltip"><![CDATA[photo_2_2026-10-15_10-00-02]]></data>
+  <data name="en_pano65_title"><![CDATA[photo_5_2026-10-15_10-00-02]]></data>
+  <data name="en_spotpoint124_tooltip"><![CDATA[photo_8_2026-10-15_10-00-02]]></data>
+
+
+  <data name="en_pano68_title"><![CDATA[photo_9_2026-10-15_10-00-02]]></data>
+  <data name="en_spotpoint111_tooltip"><![CDATA[photo_20_2026-10-15_10-00-02]]></data>
+  <data name="en_spotpoint112_tooltip"><![CDATA[photo_24_2026-10-15_10-00-02]]></data>
+  <data name="en_spotpoint118_tooltip"><![CDATA[photo_10_2026-10-15_10-00-02]]></data>
+
+
+
+
+
+
+  <data name="en_contextmenuopenFsLabel"><![CDATA[Enter Fullscreen]]></data>
+  <data name="en_contextmenucloseFsLabel"><![CDATA[Exit Fullscreen]]></data>
+  <data name="en_contextmenunormallabel"><![CDATA[Normal View]]></data>
+  <data name="en_contextmenuarchitecturallabel"><![CDATA[Architectural View]]></data>
+  <data name="en_contextmenulittleplanetlabel"><![CDATA[Little Planet View]]></data>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</krpano>
