@@ -21,6 +21,11 @@
   #strip button.active { border-color: #4da3ff; }
   #strip img { display: block; width: 100%; height: 56px; object-fit: cover; border-radius: 4px; }
   #strip span { display: block; font-size: 11px; padding: 3px 4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #links { position: absolute; z-index: 2; left: 50%; bottom: 104px; transform: translateX(-50%); display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; max-width: calc(100% - 140px); }
+  #links button { background: #1e6fd9e6; color: #fff; border: 0; border-radius: 18px; padding: 8px 14px; font-size: 14px; cursor: pointer; box-shadow: 0 2px 6px #0006; }
+  #links button:hover { background: #2b82f0; }
+  body.hide-strip #links { bottom: 16px; }
+  @media (max-width: 600px) { #links { max-width: calc(100% - 32px); gap: 6px; } #links button { padding: 6px 10px; font-size: 13px; } .nav { top: 40%; } }
   #toggle { background: #0008; border: 0; color: #fff; border-radius: 6px; padding: 6px 10px; cursor: pointer; font-size: 13px; }
   body.hide-strip #strip { display: none; }
   .pnlm-controls-container { top: 56px; }
@@ -35,6 +40,7 @@
 </div>
 <button id="prev" class="nav" aria-label="Назад">‹</button>
 <button id="next" class="nav" aria-label="Далее">›</button>
+<div id="links"></div>
 <div id="strip" class="bar"></div>
 
 <script src="lib/pannellum.js"></script>
@@ -72,6 +78,9 @@
   });
 
   var current = 0;
+  function indexOf(id) {
+    for (var i = 0; i < SCENES.length; i++) if (SCENES[i].id === id) return i;
+  }
   function go(i) {
     i = (i + SCENES.length) % SCENES.length;
     if (i !== current) viewer.loadScene(SCENES[i].id);
@@ -80,7 +89,15 @@
   function show(i) {
     current = i;
     document.getElementById("title").textContent = SCENES[i].title;
-    document.getElementById("counter").textContent = (i + 1) + " из " + SCENES.length;
+    document.getElementById("counter").textContent = SCENES[i].floor + " · шаг " + (i + 1) + " из " + SCENES.length;
+    var links = document.getElementById("links");
+    links.innerHTML = "";
+    SCENES[i].links.forEach(function (id) {
+      var j = indexOf(id), b = document.createElement("button");
+      b.textContent = "→ " + SCENES[j].title;
+      b.onclick = function () { go(j); };
+      links.appendChild(b);
+    });
     Array.prototype.forEach.call(strip.children, function (b, j) { b.classList.toggle("active", j === i); });
     strip.children[i].scrollIntoView({ block: "nearest", inline: "center" });
   }
@@ -92,7 +109,7 @@
   window.addEventListener("resize", refit);
   viewer.on("load", refit);
   viewer.on("scenechange", function (id) {
-    for (var i = 0; i < SCENES.length; i++) if (SCENES[i].id === id) show(i);
+    show(indexOf(id));
   });
   document.getElementById("prev").onclick = function () { go(current - 1); };
   document.getElementById("next").onclick = function () { go(current + 1); };
