@@ -1,0 +1,8 @@
+services:
+  excursion:
+    build: .
+    image: licey-excursion
+    container_name: licey-excursion
+    restart: unless-stopped
+    ports:
+      - "${PORT:-8080}:80"
